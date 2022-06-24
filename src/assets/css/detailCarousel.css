@@ -1,0 +1,39 @@
+.owl-carousel-items{
+    margin: 25px;
+}
+
+.carousel-description{
+    border-radius: 5px;
+    max-width: 430px;
+    height: 220px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.description-header{
+    width: 100%;
+    padding: 15px;
+    text-align: start;
+}
+
+.description-header h1.title{
+    font-family: GratySans;
+    font-size: 45px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.description-body{
+    width: 100%;
+    padding: 10px;
+    text-align: start;
+}
+
+.description-body p{
+    font-family: Poppins;
+    font-size: 15px;
+    color: #fff;
+    line-height: 1.5rem;
+}

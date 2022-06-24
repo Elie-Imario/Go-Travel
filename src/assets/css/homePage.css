@@ -1,0 +1,207 @@
+.home-page{
+    background-color: #f5f5f5;
+}
+.block-home-page{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+
+/*********/
+
+.title-lead{
+    text-align: center;
+    font-size: 27px;
+    font-family: Freezone;
+}
+
+.sub-title{
+    text-align: center;
+    font-size: 17px;
+    font-family: Poppins;
+    color: #0e0e0e;
+    padding: 1.5rem 1.25rem;
+}
+
+/********/
+
+.about-container, .popular-cities-container, .categories-section, .most-visited-section{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.about-body{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.about-body p{
+    text-align: center;
+    font-size: 17px;
+    font-family: Poppins;
+    color: #0e0e0e;
+}
+
+
+/******/
+.popular-cities-container{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.popular-cities-cards-box{
+    height: 100%;
+    width: 710px;
+    display: inline-block;
+}
+
+
+.popular-cities-cards-box > div:nth-child(1),
+.popular-cities-cards-box > div:nth-child(4){
+    width: 350px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.popular-cities-cards-box > div:nth-child(2),
+.popular-cities-cards-box > div:nth-child(3){
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+}
+
+
+
+/************/
+.categories-section{
+    margin-top: 150px;
+}
+
+.categories-cards-box{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.categorie-card{
+    position: relative;
+    width: 350px;
+    height: 100%;
+    overflow: hidden;
+    box-shadow: 0rem 0.15rem 0.15rem 0.17rem rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.categorie-card-header{
+    width: 370px;
+    height: 250px;   
+}
+
+.categorie-card-header img{
+    width: 100%;
+    height: 100%;
+}
+
+.categorie-Title{
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    padding: 1.05rem 0.65rem;
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    text-align: center;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+
+}
+
+.categorie-Title:hover{
+    background: #069e57;
+    border: 2px solid #2a9e68;
+}
+.categorie-Title span{
+    font-family: Dunkin;
+    font-size: 17px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.categorie-description{
+    padding: 20px;
+    background: white;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%);
+    
+}
+
+.categorie-description p{
+    font-size: 13px;
+    text-align: center;
+    font-family: Roboto;
+    line-height: 1.3rem;
+    margin-top: 15px;
+}
+
+
+
+/*********************/
+
+.spacer{
+    margin-top: 150px;
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../Images/baobab.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.title-lead-spacer{
+    width: 100%;
+    text-align: center;
+    padding: 2.5rem 1.75rem;
+    margin: 0 auto;
+}
+
+.title-lead-spacer h1{
+    color: #fff;
+    font-family: Poppins;
+    font-size: 21px;
+}
+
+.body-spacer{
+    width: 60%;
+    border-left: 4px solid #f5f5f5;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.body-spacer p{
+    color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+
+
+
+/***************/
+.most-visited-section{
+    margin-top: 150px;
+}
+
+.swiper-slide-container{
+    width: 85%;
+    margin: 50px auto;
+    height: 100%;
+}
