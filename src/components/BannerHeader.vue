@@ -104,13 +104,11 @@ export default {
                     />
                 </div>
             </div>
-
             <div class="btn-slider-navigation">
                 <button class="prev-btn" ><span><i class="fa fa-chevron-left"></i></span></button>
                 <button class="next-btn" ><span><i class="fa fa-chevron-right"></i></span></button>
             </div>
         </div>
-        
     </div>
 </template>
 

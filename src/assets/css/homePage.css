@@ -1,6 +1,3 @@
-.home-page{
-    background-color: #f5f5f5;
-}
 .block-home-page{
     width: 100%;
     height: 100%;
@@ -24,11 +21,15 @@
 }
 
 /********/
-
-.about-container, .popular-cities-container, .categories-section, .most-visited-section{
+.spacer{
+    margin-top: 150px;
+    width: 100%;
+}
+.about-container, .popular-cities-container, .categories-section, .most-visited-section, .newsletter-section{
     width: 90%;
     margin: 0 auto;
     padding: 10px;
+    margin-top: 100px;
 }
 
 .about-body{
@@ -47,31 +48,28 @@
 /******/
 .popular-cities-container{
     margin-top: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .popular-cities-cards-box{
-    height: 100%;
-    width: 710px;
-    display: inline-block;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    gap: 20px;
 }
 
 
 .popular-cities-cards-box > div:nth-child(1),
 .popular-cities-cards-box > div:nth-child(4){
-    width: 350px;
-    margin: 10px;
-    display: inline-block;
+    width: 380px;
+}
+.popular-cities-cards-box > div:nth-child(4){
+    margin-left: -30px;
 }
 
 .popular-cities-cards-box > div:nth-child(2),
 .popular-cities-cards-box > div:nth-child(3){
-    width: 300px;
-    margin: 10px;
-    display: inline-block;
+    width: 350px;
 }
 
 
@@ -156,8 +154,6 @@
 /*********************/
 
 .spacer{
-    margin-top: 150px;
-    width: 100%;
     height: 40vh;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../Images/baobab.jpg");
     background-size: cover;
@@ -204,4 +200,120 @@
     width: 85%;
     margin: 50px auto;
     height: 100%;
+}
+
+
+/*****************/
+.features-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/*article*/
+article{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.image{
+    width: 500px;
+    height: auto;
+}
+
+.image img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.inner{
+    width: 100%;
+    padding: 5rem;
+    height: 100%;
+}
+
+.inner header h2{
+    font-family: Owl-Cute;
+    color: #0e0e0e;
+    font-size: 2em;   
+}
+
+.inner p{
+    margin-top: 10px;
+    text-align: justify;
+    font-family: Poppins;
+    color: #505050;
+    font-size: 16px;
+}
+
+
+/***************/
+
+.newsletter-title-lead{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: Freezone;
+}
+
+.newsletter-content{
+    margin-top: 15px;
+}
+
+.newsletter-sub-title{
+    font-size: 16px;
+    font-family: Poppins;
+    color: #505050;
+}
+
+.newsletter-form{
+    margin-top: 15px;
+}
+
+.form-group{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.55rem 1.75rem 0.55rem 0;
+    background: #383838;
+    border-radius: 0.7rem;
+}
+
+.newsletter-form input{
+    padding: 1.15rem 1.75rem;
+    width: 100%;
+    border-radius: 6px;
+    background: transparent;
+    border: none;
+    font-family: "Roboto";
+    font-size: 1.05rem;
+    color: #fff;
+}
+.form-control:focus{
+    outline: 0;  
+}
+
+.btn{
+    width: 150px;
+    border: none;
+    padding: 1.05em 1.5em;
+    border-radius: 1em;
+    background: linear-gradient(#2a9e68, #069e57);
+    cursor: pointer;
+}
+
+.btn span{
+    color: #fff;
+    font-family: "Poppins";
+    text-transform: uppercase;
+    font-size: 0.9rem;
 }

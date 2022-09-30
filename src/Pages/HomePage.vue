@@ -77,8 +77,7 @@ export default {
                 </div>
                 <div class="about-body">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Consequatur eaque reiciendis earum odit amet pariatur recusandae commodi iusto, hic, ullam harum?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ab, hic impedit vel accusantium natus odit ullam nihil harum assumenda laboriosam officia obcaecati, dolorem eum illo ducimus culpa modi doloribus quas voluptatibus fugiat. Labore blanditiis iusto ad provident omnis. Tenetur mollitia sint magni eos libero suscipit autem maxime beatae saepe.
                     </p>
                 </div>
             </div>
@@ -186,6 +185,38 @@ export default {
         </div>
         <!--  -->
 
+        <!--- FEATUREs -->
+        <div class="features-section">
+            <article class="container">
+				<div class="image"><img src="../assets/Images/hublot.jpg" alt="" /></div>
+				<div class="inner">
+					<header>
+						<h2>lets keep our earth beautiful</h2>
+					</header>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Ea, nisi magnam. 
+                        Dolorem, excepturi aliquam, velit amet cumque placeat ex beatae modi aut ea asperiores alias accusantium vel libero commodi suscipit sint tempore culpa autem labore! Ratione illo veniam ipsum autem totam saepe, aut alias nobis accusamus, libero qui assumenda dolor, cum harum debitis possimus? Obcaecati accusantium veniam voluptate ratione enim animi, mollitia in pariatur dolorem nostrum rerum vel repellendus doloremque illo nulla? Est, eos eveniet aperiam dolorum fugiat architecto molestiae esse commodi incidunt harum dicta reiciendis perferendis rerum veritatis. Odit officiis incidunt culpa perferendis nihil excepturi maxime fugiat repudiandae, dolor possimus!</p>
+				</div>
+			</article>
+        </div>
+        <!--  -->
+
+        <!--Newsletters-->
+        <div class="newsletter-section">
+            <h1 class="newsletter-title-lead">Get update about upcoming events</h1>
+            <div class="newsletter-content">
+                <p class="newsletter-sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consectetur voluptatem, tenetur rem tempora iste ea quidem natus nisi rerum.</p>
+                <form action="" class="newsletter-form">
+                    <div class="form-group">
+                        <input type="email" name="email_address" placeholder="Entrez votre adresse email" required class="form-control">
+                        <button type="submit" class="btn">
+                            <span>Subscribe</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--  -->
     </div>
 </template>
 
